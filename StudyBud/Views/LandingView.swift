@@ -3,7 +3,7 @@ import SwiftUI
 struct LandingView: View {
     var body: some View {
         ZStack {
-            Image("Kitchen")
+            Image("kitchen")
                 .resizable()
                 .scaledToFill()
                 .ignoresSafeArea()
@@ -11,7 +11,7 @@ struct LandingView: View {
             VStack(spacing: 20) {
                 Spacer()
                 
-                Image("Percy_Idle")
+                Image("percyIdle")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 350, height: 350)

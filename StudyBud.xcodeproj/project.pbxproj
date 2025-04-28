@@ -7,27 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC82709E2A09BE8400E25480 /* StudyBudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82709D2A09BE8400E25480 /* StudyBudApp.swift */; };
-		EC8270A22A09BE8400E25480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8270A12A09BE8400E25480 /* Assets.xcassets */; };
+		85F0AFFB2DC03BF10098F145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F0AFFA2DC03BF10098F145 /* Assets.xcassets */; };
 		EC8270A52A09BE8400E25480 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8270A42A09BE8400E25480 /* Preview Assets.xcassets */; };
-		EC8270AC2A09BEEE00E25480 /* StudyBud.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8270AB2A09BEEE00E25480 /* StudyBud.swift */; };
-		EC8270AE2A09BFE600E25480 /* StudyBudDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8270AD2A09BFE600E25480 /* StudyBudDocument.swift */; };
-		EC8270B02A09C15000E25480 /* StudyBudDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8270AF2A09C15000E25480 /* StudyBudDocumentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85F0AFFA2DC03BF10098F145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC82709A2A09BE8400E25480 /* StudyBud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyBud.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC82709D2A09BE8400E25480 /* StudyBudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBudApp.swift; sourceTree = "<group>"; };
-		EC8270A12A09BE8400E25480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC8270A42A09BE8400E25480 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EC8270AB2A09BEEE00E25480 /* StudyBud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBud.swift; sourceTree = "<group>"; };
-		EC8270AD2A09BFE600E25480 /* StudyBudDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBudDocument.swift; sourceTree = "<group>"; };
-		EC8270AF2A09C15000E25480 /* StudyBudDocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBudDocumentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		85F0AFC92DC035BB0098F145 /* Preview */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Preview; sourceTree = "<group>"; };
-		85F0AFCA2DC038350098F145 /* New Folder */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "New Folder"; sourceTree = "<group>"; };
+		85F0AFCA2DC038350098F145 /* App */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = App; sourceTree = "<group>"; };
+		85F0AFCB2DC039190098F145 /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
+		85F0AFCC2DC039240098F145 /* Models */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Models; sourceTree = "<group>"; };
+		85F0AFCD2DC0392D0098F145 /* ViewModels */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ViewModels; sourceTree = "<group>"; };
+		85F0AFCF2DC0393D0098F145 /* Utils */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Utils; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				EC82709C2A09BE8400E25480 /* StudyBud */,
+				85F0AFCF2DC0393D0098F145 /* Utils */,
 				EC82709B2A09BE8400E25480 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,14 +57,13 @@
 		EC82709C2A09BE8400E25480 /* StudyBud */ = {
 			isa = PBXGroup;
 			children = (
-				85F0AFCA2DC038350098F145 /* New Folder */,
-				EC82709D2A09BE8400E25480 /* StudyBudApp.swift */,
-				EC8270AB2A09BEEE00E25480 /* StudyBud.swift */,
-				EC8270AD2A09BFE600E25480 /* StudyBudDocument.swift */,
-				EC8270AF2A09C15000E25480 /* StudyBudDocumentView.swift */,
-				EC8270A12A09BE8400E25480 /* Assets.xcassets */,
+				85F0AFCA2DC038350098F145 /* App */,
+				85F0AFCB2DC039190098F145 /* Views */,
+				85F0AFCC2DC039240098F145 /* Models */,
+				85F0AFCD2DC0392D0098F145 /* ViewModels */,
 				85F0AFC92DC035BB0098F145 /* Preview */,
 				EC8270A32A09BE8400E25480 /* Preview Content */,
+				85F0AFFA2DC03BF10098F145 /* Assets.xcassets */,
 			);
 			path = StudyBud;
 			sourceTree = "<group>";
@@ -96,7 +92,11 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				85F0AFCA2DC038350098F145 /* New Folder */,
+				85F0AFCA2DC038350098F145 /* App */,
+				85F0AFCB2DC039190098F145 /* Views */,
+				85F0AFCC2DC039240098F145 /* Models */,
+				85F0AFCD2DC0392D0098F145 /* ViewModels */,
+				85F0AFCF2DC0393D0098F145 /* Utils */,
 			);
 			name = StudyBud;
 			productName = "Emoji Art";
@@ -141,8 +141,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F0AFFB2DC03BF10098F145 /* Assets.xcassets in Resources */,
 				EC8270A52A09BE8400E25480 /* Preview Assets.xcassets in Resources */,
-				EC8270A22A09BE8400E25480 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,10 +153,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8270B02A09C15000E25480 /* StudyBudDocumentView.swift in Sources */,
-				EC8270AC2A09BEEE00E25480 /* StudyBud.swift in Sources */,
-				EC82709E2A09BE8400E25480 /* StudyBudApp.swift in Sources */,
-				EC8270AE2A09BFE600E25480 /* StudyBudDocument.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,6 +24,9 @@
 		85F0AFCC2DC039240098F145 /* Models */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Models; sourceTree = "<group>"; };
 		85F0AFCD2DC0392D0098F145 /* ViewModels */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ViewModels; sourceTree = "<group>"; };
 		85F0AFCF2DC0393D0098F145 /* Utils */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Utils; sourceTree = "<group>"; };
+		85F0AFFF2DC0425F0098F145 /* Theme */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Theme; sourceTree = "<group>"; };
+		85F0B0002DC0426F0098F145 /* Components */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Components; sourceTree = "<group>"; };
+		85F0B0012DC042820098F145 /* Modifiers */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Modifiers; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,9 @@
 		EC82709C2A09BE8400E25480 /* StudyBud */ = {
 			isa = PBXGroup;
 			children = (
+				85F0B0012DC042820098F145 /* Modifiers */,
+				85F0B0002DC0426F0098F145 /* Components */,
+				85F0AFFF2DC0425F0098F145 /* Theme */,
 				85F0AFCA2DC038350098F145 /* App */,
 				85F0AFCB2DC039190098F145 /* Views */,
 				85F0AFCC2DC039240098F145 /* Models */,
@@ -97,6 +103,9 @@
 				85F0AFCC2DC039240098F145 /* Models */,
 				85F0AFCD2DC0392D0098F145 /* ViewModels */,
 				85F0AFCF2DC0393D0098F145 /* Utils */,
+				85F0AFFF2DC0425F0098F145 /* Theme */,
+				85F0B0002DC0426F0098F145 /* Components */,
+				85F0B0012DC042820098F145 /* Modifiers */,
 			);
 			name = StudyBud;
 			productName = "Emoji Art";

@@ -41,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				EC82709C2A09BE8400E25480 /* StudyBud */,
-				85F0AFCF2DC0393D0098F145 /* Utils */,
 				EC82709B2A09BE8400E25480 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +63,7 @@
 				85F0AFC92DC035BB0098F145 /* Preview */,
 				EC8270A32A09BE8400E25480 /* Preview Content */,
 				85F0AFFA2DC03BF10098F145 /* Assets.xcassets */,
+				85F0AFCF2DC0393D0098F145 /* Utils */,
 			);
 			path = StudyBud;
 			sourceTree = "<group>";

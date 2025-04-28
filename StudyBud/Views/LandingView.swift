@@ -3,7 +3,6 @@ import SwiftUI
 struct LandingView: View {
     var body: some View {
         ZStack {
-            // Background
             Image("Kitchen")
                 .resizable()
                 .scaledToFill()
@@ -12,29 +11,22 @@ struct LandingView: View {
             VStack(spacing: 20) {
                 Spacer()
                 
-                // Buddy Character
                 Image("Percy_Idle")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 300, height: 300)
+                    .frame(width: 350, height: 350)
 
                 Spacer()
                 
-                // Speech bubble card
-                VStack(spacing: 15) {
+                InfoBubble {
                     Text("Let's get to work!")
-                        .font(.system(size: 25, weight: .bold))
+                        .font(.mainHeader)
                         .foregroundColor(.black)
                     
                     MainButton(title: "Next") {
                         print("Next tapped")
                     }
                 }
-                .padding()
-                .background(Color.white)
-                .cornerRadius(20)
-                .shadow(radius: 10)
-                .padding(.horizontal, 30)
                 
                 Spacer()
             }

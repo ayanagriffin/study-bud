@@ -1,40 +1,48 @@
+//
+//  LandingView 2.swift
+//  StudyBud
+//
+//  Created by Ayana Griffin on 5/30/25.
+//
+
+
 import SwiftUI
 
 struct LandingView: View {
     @State private var navigate = false
-    
+
     var body: some View {
-        ZStack {
-            Image("kitchen")
-                .resizable()
-                .scaledToFill()
-                .ignoresSafeArea()
-
-            VStack(spacing: 20) {
-                Spacer()
-                
-                Image("percyIdle")
+        NavigationStack {
+            ZStack {
+                Image("kitchen")
                     .resizable()
-                    .scaledToFit()
-                    .frame(width: 350, height: 350)
+                    .scaledToFill()
+                    .ignoresSafeArea()
 
-                Spacer()
-                
-                Text("Let's get to work!")
-                    .font(.mainHeader)
-                    .foregroundColor(.black)
-                
-                NavigationLink(destination: OnboardingView(), isActive: $navigate){
-                    EmptyView()
-                }
+                VStack(spacing: 20) {
+                    Spacer()
 
-                
-                MainButton(title: "Next") {
-                    navigate = true
-                    print("Next tapped")
+                    Image("percyIdle")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 350, height: 350)
+
+                    Spacer()
+
+                    Text("Let's get to work!")
+                        .font(.mainHeader)
+                        .foregroundColor(.black)
+
+                    MainButton(title: "Next") {
+                        navigate = true
+                        print("Next tapped")
+                    }
+
+                    Spacer()
                 }
-                
-                Spacer()
+            }
+            .navigationDestination(isPresented: $navigate) {
+                PreSessionView()
             }
         }
     }
@@ -43,3 +51,4 @@ struct LandingView: View {
 #Preview {
     LandingView()
 }
+

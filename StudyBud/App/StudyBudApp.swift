@@ -4,9 +4,8 @@ import SwiftUI
 struct StudyBudApp: App {
     var body: some Scene {
         WindowGroup {
-            NavigationStack {
-                LandingView()
-            }
+            LandingView()
         }
     }
 }
+
